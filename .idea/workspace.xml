@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="930cde4a-abe5-43ad-8bb5-a1e6270a6f37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/booklib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/booklib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +37,7 @@
           <entry key="env" value="2" />
           <entry key="gitignore" value="3" />
           <entry key="json" value="1" />
-          <entry key="php" value="13" />
+          <entry key="php" value="24" />
           <entry key="yaml" value="3" />
         </counts>
       </usages-collector>
@@ -45,21 +45,24 @@
         <counts>
           <entry key=".env file" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="PHP" value="14" />
+          <entry key="PHP" value="25" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="5" />
           <entry key="env" value="19" />
           <entry key="gitignore" value="8" />
+          <entry key="php" value="864" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="19" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PHP" value="864" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -67,18 +70,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+        <entry file="file://$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#36#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataFixtures/AuthorFixtures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#36#58#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataFixtures/BookFixtures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#36#56#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Author.php">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Book.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-365" />
+            <state relative-caret-position="371">
+              <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -93,6 +125,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/Entity/Borrow.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/CategoryFixturesPhp.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/AutorFicturesPhp.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/AutorFictures.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/BookFictures.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/BookFixtures.php" />
         <option value="$PROJECT_DIR$/src/Entity/Book.php" />
       </list>
     </option>
@@ -156,10 +194,12 @@
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="119" />
+    <option name="x" value="178" />
     <option name="y" value="23" />
     <option name="width" value="1246" />
     <option name="height" value="825" />
@@ -203,13 +243,13 @@
               <item name="booklib" type="b2602c69:ProjectViewProjectNode" />
               <item name="booklib" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="booklib" type="b2602c69:ProjectViewProjectNode" />
               <item name="booklib" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="booklib" type="b2602c69:ProjectViewProjectNode" />
@@ -252,22 +292,21 @@
       <updated>1542638888894</updated>
       <workItem from="1542638890020" duration="99000" />
       <workItem from="1542639103997" duration="2203000" />
-      <workItem from="1542641825303" duration="4815000" />
+      <workItem from="1542641825303" duration="12108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7117000" />
+    <option name="totallyTimeSpent" value="14410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="23" width="1246" height="825" extended-state="0" />
-    <editor active="true" />
+    <frame x="178" y="23" width="1246" height="825" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25166112" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25166112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287858" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -276,7 +315,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4106412" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24010915" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -321,9 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/MigrationVersions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-79" />
@@ -344,11 +380,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Book.php">
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AppFixtures.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Author.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="994">
-          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
-        </state>
+        <state relative-caret-position="-365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
@@ -358,9 +400,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Author.php">
+    <entry file="file://$USER_HOME$/Desktop/BookFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-365" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="71" />
+          <folding>
+            <element signature="e#36#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/AuthorFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <element signature="e#36#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AuthorFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#36#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/BookFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#36#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#36#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="231" lean-forward="true" selection-start-line="231" selection-end-line="231" />
+        </state>
       </provider>
     </entry>
   </component>
