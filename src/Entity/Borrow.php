@@ -152,5 +152,10 @@ class Borrow
         return $this;
     }
 
+    public function __toString()
+    {
+        return $this->getDateStart()->format("d-m-y") . " " . $this->getDateStart()->format("d-m-y");
+    }
+
 
 }
